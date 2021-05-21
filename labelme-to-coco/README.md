@@ -8,6 +8,7 @@
 
 Run the `labelme2coco.py` script to generate a COCO data formatted JSON file for you.
 ```
+pip install -r requirements.txt 
 python labelme2coco.py resources
 ```
 *The output will be trainval.json.
